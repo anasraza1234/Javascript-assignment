@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button{
+            padding-left: 50px;
+            padding-right: 50px;
+            padding: 30px;
+            margin: 6px;
+            background-color: #fff;
+            border: 1px solid;
+            border-radius: 60px;
+            font-size: 30px;
+        }
+
+        body{
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            height: 100vh;
+            flex-direction: column;
+            background-image: url(./masjid.avif);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .counting-area a {
+            font-size: 90px;
+            padding: 110px;
+            height: 45px;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            color: rgb(8, 78, 54);
+           
+         
+        }
+
+        .counting-area {
+            margin: auto;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .buttons{
+            margin: auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+        }
+
+        img {
+            width: 30px;
+        }
+
+        h1 {
+            color:rgb(9, 113, 78);
+            font-size: 40px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>greething and welcome to <span>ANAS</span> tasbeeh counter app</h1>
+
+    <div class="counting-area">
+        <a id="zero">0</a>
+    </div>
+
+    <hr>
+
+    <div class="buttons">
+        <button id="reset"><img src="./reset.jpg" alt=""></button>
+        <button id="add" onclick="inc();">+</button>
+    </div>
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
