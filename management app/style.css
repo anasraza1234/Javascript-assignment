@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainindex {
+    background-color: #212832;
+    width: 390px;
+    height: 850px;
+    top: -500px;
+    left: 922px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+.img {
+    padding-left: 30px;
+}
+
+.head {
+
+    color: #FFFFFF;
+
+    padding-left: 30px;
+    font-size: 20px;
+    padding-top: 30px;
+    line-height: 50px;
+
+}
+
+.btn {
+    padding-left: 30px;
+    width: 330px;
+    height: 60px;
+    background-color: #FED36A;
+    ;
+
+}
+
+.cl {
+    color: #FED36A;
+}
+
+.butn {
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main2 {
+    background-color: #212832;
+    width: 360px;
+    height: 850px;
+    gap: 0px;
+    opacity: 0px;
+    padding-right: 80px;
+
+
+}
+
+.logo2 {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo2 img {
+    width: 24px;
+    height: 24px;
+    padding-top: 20px;
+
+
+}
+
+.containt {
+    color: #FFFFFF;
+    padding-left: 80px;
+}
+
+
+.containt p {
+    padding-left: 50px;
+    background-color: #455A64;
+    width: 250px;
+    min-height: 30px;
+    margin-left: 30px;
+
+
+
+}
+
+.para {
+    background-color: #455A64;
+    width: 200px;
+    height: 90px;
+    padding-top: 30px;
+
+}
+
+h4 {
+    padding: 60px;
+    padding-top: 90px;
+    color: #FFFFFF;
+}
+
+
+.cont2 {
+
+
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.h31 {
+    display: flex;
+    margin-left: 90px;
+    justify-content: space-between;
+}
+
+
+
+.h31 img {
+    padding-left: 70px;
+    ;
+    background-color: #FED36A;
+
+}
+
+h5 {
+    padding-left: 40px;
+    padding-bottom: 50px;
+
+}
+
+
+
+
+
+
+
+main {
+    background-color: #212832;
+    padding: 0px 25px;
+    max-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+section {
+    width: 100%;
+}
+
+.btn-wrapper .btn {
+    background-color:#FED36A ;
+    color: #000;
+    padding: 20px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    width: 100%;
+    border: none;
+}
+
+.login-logo-wrapper {
+    text-align: center;
+}
+
+.login-sec h2 {
+    color: #fff;
+    margin: 20px 0px 10px;
+    font-size: 26px;
+}
+
+.input-group {
+    margin: 30px 0px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color:#fff;
+    font-size: 18px;
+}
+
+input {
+    background-color: #455A64;
+    border: none;
+    padding: 22px 45px 18px;
+    display: block;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+}
+
+input#email {
+    background-image: url(./assets/images/usertag.png);
+}
+
+input#password {
+    background-image: url(./assets/images/lock1.png);
+
+}
+
+.credentials p {
+    margin: 5px 0 0;
+}

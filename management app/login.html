@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <section class="login-sec">
+          <div class="login-logo-wrapper">
+            <img src="./image logo/Group 5.png" alt="" />
+          </div>
+          <h2>Welcome Back!</h2>
+          <div class="form-wrapper">
+            <form onsubmit="userLogin();">
+              <div class="input-group">
+                <label>Email Address</label>
+                <input type="email" id="email" required />
+              </div>
+              <div class="input-group">
+                <label>Password</label>
+                <input type="password" id="password" required />
+              </div>
+              <div class="btn-wrapper">
+               <a href="next.html"><button class="btn" type="submit">Login</button></a> 
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+  
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="./app.js"></script>
+     
+
+    <script src="login.js"></script>
+    
+</body>
+</html>
