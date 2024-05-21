@@ -1,0 +1,86 @@
+div#error {
+    color: red;
+    line-height: 1.7em;
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgb(246, 248, 246);
+  margin: 0%;
+  padding: 0%;
+
+}
+.todo-app {
+    text-align: center;
+    margin-top: 60px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: rgb(19, 16, 16);
+  font-size: 60px;
+  margin: 0 20px;
+}
+
+.todolist {
+    width: 400px;
+    margin: auto;
+    min-height: 300px;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px ;
+    padding: 20px 20px 100px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background-color: #464040;
+}
+#text {
+  min-width: 300px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 0px solid transparent;
+  font-size: 24px;
+  margin-right: 10px;
+  color: rgb(114, 102, 124);
+}
+
+#text:focus {
+  outline: none;
+}
+
+button {
+  color: rgb(114, 102, 124);
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid rgb(255, 255, 255);
+  transition: 0.3s all ease-in-out;
+}
+
+.d-none {
+  display: none;
+}
+
+.todolist p {
+    margin: 0;
+    line-height: 1.7em;
+    color: #fff;
+    font-size: 21px;
+    text-align: left;
+}
+
+
