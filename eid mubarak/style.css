@@ -1,0 +1,26 @@
+
+
+body {
+  background-image: url(./assets/masji2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+  padding: 0px 50px;
+}
+
+#show {
+  text-align: center;
+  padding:20px 0px;
+}
+
+#show b {
+    font: 60 12vh "vibur";
+    color: #fee;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f50daf, 0 0 0.5em #fa07d1, 0 0 0.1em #fa07a9;
+    line-height: 1.3em;
+}
+
+
+
+
+
